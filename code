@@ -1,0 +1,13 @@
+class rectangle():
+    def __init__(self,l,w):
+        self.length = l
+        self.width = w
+
+    def rectangle_area(self):
+        return (self.length * self.width)
+    def rectangle_perimeter(self):
+        return (self.length + self.length + self.width * self.width)
+
+nr = rectangle(12,10)
+print(nr.rectangle_area())
+print(nr.rectangle_perimeter())
